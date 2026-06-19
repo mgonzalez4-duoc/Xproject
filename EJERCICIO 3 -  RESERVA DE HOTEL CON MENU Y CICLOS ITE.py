@@ -11,9 +11,9 @@ print("\t\t        ===========================================")
 
 #--------------------VALORES CONSTANTES----------------------|
 
-h_simples = 45000
-h_dobles = 70000
-h_suites = 120000 
+h_simples = 45_000
+h_dobles = 70_000
+h_suites = 120_000 
 
 #------------INICIALIZACION DE CONTADORES OCUPADAS-----------|
 
@@ -209,7 +209,7 @@ while True:
         os.system("cls")
         print("Estamos Procesando su reserva. Por favor espere..!!")
         print("")
-        print("loading.......")
+        print("Cargando.......")
         time.sleep(4)
         os.system("cls")
 
